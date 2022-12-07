@@ -1,0 +1,63 @@
+.hidden {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(0);
+}
+
+div#content-wrapper {
+    background: linear-gradient(180deg, #0C003C 0%, #BFFFAF 100%), linear-gradient(165deg, #480045 25%, #E9EAAF 100%), linear-gradient(145deg, #480045 25%, #E9EAAF 100%), linear-gradient(300deg, rgba(233, 223, 255, 0) 0%, #AF89FF 100%), linear-gradient(90deg, #45EBA5 0%, #45EBA5 30%, #21ABA5 30%, #21ABA5 60%, #1D566E 60%, #1D566E 70%, #163A5F 70%, #163A5F 100%);
+    background-blend-mode: overlay, overlay, overlay, multiply, normal;
+}
+
+@media screen and (min-width: 1024px) {
+    .bios {
+        width: 50%;
+    }
+
+    .link-buttons {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .bios {
+        width: 75%;
+    }
+
+    .link-buttons {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .link-buttons {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bios {
+        padding-top: 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .bios-fullname {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .link-name {
+        font-size: 90% !important;
+    }
+
+    .link-logo {
+        font-size: 120% !important;
+    }
+
+}

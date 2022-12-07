@@ -1,0 +1,110 @@
+div#content {
+    background: #fff !important;
+}
+
+div#content-fluid {
+    background: #fff !important;
+}
+
+.img-hover:hover {
+    border: 2px dashed blue;
+    opacity: 0.3;
+}
+
+.hidden {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(0);
+}
+
+input:focus {
+    border: none !important;
+}
+
+div#content {
+    background: #fff !important;
+}
+
+div#content-fluid {
+    background: #fff !important;
+}
+
+@media screen and (min-width: 1024px) {
+    .bios {
+        width: 50%;
+    }
+
+    .link-buttons {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .bios {
+        width: 75%;
+    }
+
+    .link-buttons {
+        width: 75%;
+    }
+
+    .img-hover {
+        border: 2px dashed blue;
+        opacity: 0.3;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .link-buttons {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bios {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bios-fullname {
+        margin-top: 40px;
+    }
+
+    .edit-bios {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .edit-bios {
+        width: 100% !important;
+    }
+
+    .bios {
+        width: 100% !important;
+    }
+
+    form input {
+        height: 33px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .link-name {
+        font-size: 90% !important;
+    }
+
+    .link-logo {
+        font-size: 120% !important;
+    }
+
+}
+
+::placeholder {
+    color: gray !important;
+    opacity: 0.5 !important;
+}
